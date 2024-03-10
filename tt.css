@@ -1,0 +1,69 @@
+/*************
+innboo
+******************/
+/*@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap')*/
+/*************
+reeest
+******************/
+:root{
+--Verydark-bluemainbackground: hsl(233, 47%, 7%);
+--Darkdesaturated-bluecardbackground: hsl(244, 38%, 16%);
+--Soft-violetaccent:hsl(277,64%, 61%);
+}
+*::after*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*************
+gollloo
+******************/
+body{
+     background-color: var(--Darkdesaturated-bluecardbackground);
+     color:rgb(245, 244, 243);
+     text-align: center;
+     font-size: 15px;
+     line-height: 1.3;
+}
+h1 span{
+    color: violet;
+}
+
+/*************
+peag coo
+******************/
+main img{
+    max-width: 100%;
+    border-radius: 10px;
+    position: relative;
+}
+main {
+    display: flex;
+    min-height:95vh;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.test {
+    background-color: var(--Verydark-bluemainbackground);
+    width: 92%;
+    padding: 10px;
+    border-radius: 20px;
+}
+.attribution{
+    width: 100%;
+}
+/*************
+modil
+******************/
+@media screen and (min-width:1024px) {
+    .test{
+        width: 40%;
+    }
+}
+@media screen and (min-width:688px) {
+    .test{
+        width: 40%;
+    }
+}
+    
